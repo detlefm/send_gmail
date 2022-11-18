@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "send_gmail"
+readme = "README.md"
+version = "0.0.3"
+authors = [
+  { name="Detlef Meyer", email="detlefm@dmone.de" }
+]
+description = "Send smtp mail"
+dependencies = []
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/detlefm/send_gmail"
+"Bug Tracker" = "https://github.com/detlefm/send_gmail/issues"
