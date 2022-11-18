@@ -1,6 +1,6 @@
 # send_gmail
 Python : Sending an email via smtp Server
-Default smpt Server : gmail
+Default smtp Server : gmail
 
 usage:
 
